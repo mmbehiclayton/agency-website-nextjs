@@ -27,7 +27,7 @@ export default function Home() {
           <div className="hidden md:flex gap-x-10 items-center text-gray-700 font-medium text-lg cursor-pointer">
             
             <Link href={'/showcase'} className="hover:text-blue-500">
-              Showcase
+              Projects
             </Link>
 
             <ScrollLink to="services" smooth={true} className="hover:text-blue-500">
@@ -48,7 +48,7 @@ export default function Home() {
         <div className="flex items-center gap-x-4">
           <a href="tel:0717104727" className="hidden lg:flex">
             <button className="px-4 py-2 rounded-md flex items-center gap-x-3">
-              (+254) 717104727
+              0717104727
             </button>            
             </a>
 
